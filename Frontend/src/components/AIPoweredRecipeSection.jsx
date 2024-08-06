@@ -9,17 +9,17 @@ const AIPoweredRecipeSection = () => {
   const [isLoginModalOpen, setLoginModalOpen] = useState(false);
   const navigate = useNavigate();
   
-  // Function to check if a user is logged in
+  
   const isUserLoggedIn = () => {
     return !!JSON.parse(localStorage.getItem('user'));
   };
 
-  // Handler for the Generate Recipe button click
+  
   const handleGenerateRecipe = () => {
     if (isUserLoggedIn()) {
-      navigate('/recipe-maker'); // Redirect to recipe-maker page
+      navigate('/recipe-maker');
     } else {
-      setLoginModalOpen(true); // Open the login modal if not logged in
+      setLoginModalOpen(true);
     }
   };
 
@@ -64,7 +64,6 @@ const AIPoweredRecipeSection = () => {
           </button>
         </div>
 
-        {/* Right Side: Image */}
         <div className="lg:w-1/2">
           <img src={AIPoweredImage} alt="AI Recipe Generation" className="w-full h-auto object-cover" />
         </div>
@@ -74,7 +73,7 @@ const AIPoweredRecipeSection = () => {
       <LoginModal
         isOpen={isLoginModalOpen}
         onClose={() => setLoginModalOpen(false)}
-        onLoginSuccess={handleLoginSuccess} // Pass the function to handle successful login
+        onLoginSuccess={handleLoginSuccess}
       />
     )}
     </>

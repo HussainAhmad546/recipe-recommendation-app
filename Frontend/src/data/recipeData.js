@@ -1,4 +1,3 @@
-// src/data.js
 import Strawberry_cream_cake from '../assets/images/Strawberry_cream_cake.png';
 const recipeData = [
     {

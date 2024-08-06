@@ -14,7 +14,6 @@ const PricingTable = () => {
           </p>
         </div>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
-          {/* Pricing Card for $100 Plan */}
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Basic Plan</h3>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -24,7 +23,7 @@ const PricingTable = () => {
               <span className="mr-2 text-5xl font-extrabold">$100</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
-            {/* List */}
+
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -50,7 +49,7 @@ const PricingTable = () => {
             </a>
           </div>
 
-          {/* Pricing Card for $300 Plan */}
+
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Professional Plan</h3>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -60,7 +59,7 @@ const PricingTable = () => {
               <span className="mr-2 text-5xl font-extrabold">$300</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
-            {/* List */}
+
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -86,7 +85,7 @@ const PricingTable = () => {
             </a>
           </div>
 
-          {/* Pricing Card for $500 Plan */}
+
           <div className="flex flex-col p-6 mx-auto max-w-lg text-center text-gray-900 bg-white rounded-lg border border-gray-100 shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Professional Plan</h3>
             <p className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
@@ -96,7 +95,7 @@ const PricingTable = () => {
               <span className="mr-2 text-5xl font-extrabold">$500</span>
               <span className="text-gray-500 dark:text-gray-400">/month</span>
             </div>
-            {/* List */}
+
             <ul role="list" className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <svg className="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">

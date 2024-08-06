@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import dummy_avatar from '../../assets/images/dummy_avatar.webp';
-// import recipeData from '../../data/recipeData';
 import {MyContext} from '../../MyContext'
 import { useContext } from 'react';
 

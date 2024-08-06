@@ -1,26 +1,3 @@
-// import team_member_one from '../assets/images/team_member_one.png'
-// import team_member_two from '../assets/images/team_member_two.png'
-// import team_member_three from '../assets/images/team_member_three.png'
-// import team_member_four from '../assets/images/team_member_four.png'
-// import team_member_five from '../assets/images/team_member_five.png'
-
-// const memberData = [
-//     { id: 1, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_one },
-//     { id: 2, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_two},
-//     { id: 3, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_three},
-//     { id: 4, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_four},
-//     { id: 5, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_five},
-//     { id: 6, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_one},
-//     { id: 7, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_two},
-//     { id: 8, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_three},
-//     { id: 9, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_four},
-//     { id: 10, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_five},
-//     { id: 11, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_one},
-//     { id: 12, memberName: 'Hussain Ahmad', memberPosition: 'Developer', image: team_member_two},
-//   ];
-  
-//   export default memberData;
-  
 import team_member_one from '../assets/images/team_member_one.png'
 import team_member_two from '../assets/images/team_member_two.png'
 import team_member_three from '../assets/images/team_member_three.png'

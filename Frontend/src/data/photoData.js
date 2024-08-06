@@ -1,4 +1,3 @@
-// src/photoData.js
 import recipe_image_1 from '../assets/images/image_1.png';
 import recipe_image_2 from '../assets/images/image_2.png';
 import recipe_image_3 from '../assets/images/image_3.png';
